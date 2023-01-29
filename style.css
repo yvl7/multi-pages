@@ -1,0 +1,147 @@
+:root {
+    --primary-color: #f38160;
+    --primary-color-light: #f5dfd8;
+    --secondary-color: #f5f2fe;
+    --thidth-color: #c73c1a;
+    --fouth-color: #c73c1a;
+    --fouth-color-light: #f5dfd8;
+    --fitht-color: #c5ab94;
+    --base-text-color: #2e423c;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  body {
+    max-width: 100%;
+    color: var(--base-text-color);
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 96px;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    opacity: 0.7;
+    color: var(--base-text-color);
+  }
+  
+  p {
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  
+  .about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  
+  .homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+  }
+  
+  .about-paragraphs {
+    display: flex;
+    margin: 30px 0;
+  }
+  
+  .about-paragraphs p {
+    margin: 10px;
+  }
+  
+  .email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+  }
+  .about-link:hover {
+    color: var(--thidth-color);
+  }
+  
+  .contact-link:hover {
+    color: var(--thidth-color);
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+    color: var(--thidth-color);
+  }
+  
+  .bg-light-beige {
+    background: var(--primary-color);
+    opacity: 0.4;
+  }
+  
+  .info-prodject {
+    background-color: var(--fitht-colors);
+  }
+  
+  p {
+    background: var(--primary-color);
+    opacity: 0.4;
+    color: white;
+  }
+  
+  .color-red {
+    color: var(--base-text-color);
+  }
+  
+  .color-blu {
+    color: var(--base-text-color);
+    opacity: 0.7;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .go-certificate {
+    background-color: var(--fouth-color-light);
+  }
+  
+  .go-project {
+    background-color: var(--fouth-color-light);
+    color: var(--fouth-color);
+  }
+  
+  .border-blu {
+    border-color: var(--fouth-color-light) !important;
+    opacity: 0.7;
+  }
+  
