@@ -144,4 +144,10 @@
     border-color: var(--fouth-color-light) !important;
     opacity: 0.7;
   }
-  
+
+  @media (max-width: 576px) {
+     h1 
+     h2 {
+       font-size: 24px;
+     }
+  } 
